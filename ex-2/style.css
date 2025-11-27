@@ -1,1 +1,27 @@
-/* Start coding here */
+body {
+    background-color: lightgrey;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* กล่องใหญ่ */
+.container {
+    width: 700px;
+    height: 350px;
+    margin: 50px auto;
+
+    background-color: khaki;
+    padding: 30px;
+
+    border: 12px solid black;
+    outline: 12px solid crimson;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ข้อความ TechUp */
+.container h1 {
+    font-size: 72px;
+    color: black;
+    margin-top: 0;
+}
